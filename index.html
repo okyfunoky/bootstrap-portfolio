@@ -1,40 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
+
 <body>
-    <!--NavBar placeholder-->
-    <div></div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Mike Stevens</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">About <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./portfolio.html">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
     <div class="container">
         <div class="row">
-            <h1>About Me</h1>
-        </div>
-        <div class="row">
-            <div class="col-md-3">
-                <img src="" alt="Myself and my daughter">
-            </div>
             <div class="col-md-9">
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia modi, exercitationem voluptate aut placeat repudiandae assumenda quisquam sint corporis similique odio cumque corrupti ab consequuntur omnis, officiis reiciendis sequi expedita!
-                </p>
+                <h1>About Me</h1>
+                <div class="media">
+                    <img src="http://placehold.it/200x200" class="align-self-start mr-3" alt="...">
+                    <div class="media-body">
+                        <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin.
+                            Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc
+                            ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
+                        <p>Donec sed odio dui. Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque
+                            penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                    </div>
+                </div>
             </div>
-        </div>
-        <div class="row">
-            <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores officiis, maiores voluptatum nisi quasi assumenda cum, suscipit temporibus totam, quas facilis delectus explicabo quos ipsum itaque iusto placeat voluptates harum.
-            </p>
-        </div>
-        <div class="row">
-            <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima maxime tenetur ab optio delectus tempore fugiat veniam reprehenderit esse autem quo voluptatem, quia a alias, rerum distinctio labore expedita consequuntur?
-            </p>
+            <div class="col-md-3">
+                <div class="card">
+                    <div class="card-body">
+                        <h5>Card Title</h5>
+                        <h6>Subtitle</h6>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi aspernatur qui quo aliquid
+                            minima reprehenderit reiciendis aliquam, minus labore atque possimus omnis ipsam modi, sed
+                            fugiat tempore fugit dolorum provident?
+                        </p>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
     <footer>&copy;Copyright</footer>
 </body>
+
 </html>
