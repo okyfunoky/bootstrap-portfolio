@@ -1,0 +1,51 @@
+
+* {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+}
+
+body {
+    background-image: url('../images/kindajean.jpg');
+}
+
+h1 {
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+}
+
+h3 {
+    color: grey;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+}
+
+p {
+    text-align: left;
+    line-height: 150%;
+    font-size: 24px;
+}
+
+.main-content {
+    background-color: #ffffff;
+}
+
+.navpad {
+    /* set this for padding fix */
+    background-color:  #4aaaa5;
+}
+
+.custom-footer {
+    background-color: #666666;
+    border-style: solid;
+    border-color: #4aaaa5;
+    border-bottom: none;
+    border-right: none;
+    border-left: none;
+    height: 4em;
+    width: 100%;
+    font-size: 8px;
+    position: absolute;
+    bottom: 0;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}

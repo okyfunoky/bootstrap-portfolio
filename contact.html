@@ -8,34 +8,44 @@
     <title>Document</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Mike Stevens</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="./index.html">About</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="./portfolio.html">Portfolio</a>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Contact <span class="sr-only">(current)</span></a>
-                </li>
-            </ul>
-        </div>
-    </nav>
     <div class="container">
         <div class="row">
+            <div class="col-md-12 navpad">
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <a class="navbar-brand" href="#">Mike Stevens</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse"
+                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="navbar-collapse collapse w-100 order-3 dual-collapse2" id="navbarSupportedContent">
+                        <ul class="navbar-nav ml-auto">
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="./index.html">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./portfolio.html">Portfolio</a>
+                            </li>
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#">Contact <span class="sr-only">(current)</span></a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+
+    <div class="container main-content ">
+        <div class="row">
             <div class="col-md-3">
-                <h1>Contact</h1>
+                <h3>Contact</h3>
             </div>
         </div>
         <form>
@@ -54,7 +64,8 @@
             <button type="submit" class="btn btn-primary">Submit</button>
         </form>
     </div>
-    <footer>&copy;Copyright</footer>
+    <div class="footer-copyright text-center py-3 custom-footer">©Copyright
+    </div>
 </body>
 
 </html>
