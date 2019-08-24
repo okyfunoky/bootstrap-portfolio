@@ -2,6 +2,7 @@
 * {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #777777;
+    box-sizing: border-box;
 }
 
 .active {
@@ -55,11 +56,12 @@ p {
     align-items: flex-end;
 }
 
-.nav-name {
+#nav-name {
     background-color: #4aaaa5;
     color: #ffffff;
     font-size: 30px;
     box-sizing: border-box;
+    padding: 20px;
     height: 100%;
 }
 
