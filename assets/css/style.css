@@ -57,3 +57,7 @@ p {
     box-sizing: border-box;
     height: 100%;
 }
+
+.nav-item {
+    text-align: right;
+}
