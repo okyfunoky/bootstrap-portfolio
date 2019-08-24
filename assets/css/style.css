@@ -42,10 +42,18 @@ p {
     height: 4em;
     width: 100%;
     font-size: 8px;
-    position: absolute;
+    position: fixed;
     bottom: 0;
     color: #ffffff;
     display: flex;
     justify-content: space-around;
     align-items: flex-end;
+}
+
+.nav-name {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    font-size: 30px;
+    box-sizing: border-box;
+    height: 100%;
 }
