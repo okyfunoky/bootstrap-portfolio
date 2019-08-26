@@ -73,3 +73,15 @@ p {
     border-top: solid 1px #666666;
     padding-top: 10px;
 }
+
+.project {
+    position: relative;
+}
+
+.caption {
+    position: absolute;
+    top: 85%;
+    width: 100%;
+    background-color: #4aaaa5;
+    color: #ffffff;
+}
