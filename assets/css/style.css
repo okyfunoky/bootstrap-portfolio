@@ -21,6 +21,7 @@ h1 {
 h3 {
     color: grey;
     font-family: 'Georgia', Times, 'Times New Roman', serif;
+    margin-top: 20px;
 }
 
 p {
@@ -85,4 +86,5 @@ p {
     width: 100%;
     background-color: #4aaaa5;
     color: #ffffff;
+    text-align: center;
 }
